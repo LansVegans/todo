@@ -1,0 +1,211 @@
+html,
+body {
+  height: 100%;
+}
+
+/* body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+} */
+.text-center {
+  background-image: url(./assets/img/TebPWZ6.jpg);
+background-size: cover;
+background-repeat: no-repeat; 
+}
+
+.form-center {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+ text-align:center;
+  height: 546px;
+}
+
+.form-signin .form-signup {
+  width: 33%;
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .checkbox .form-signup {
+  font-weight: 400;
+}
+.form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 7px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus{
+  z-index: 2;
+}
+.form-signup .form-control:focus{
+  z-index: 2;
+}
+/* .form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+} */
+.form-signup input{
+  margin-bottom: 5px; 
+}
+.form-signin input{
+  margin-bottom: 5px; 
+}
+.checkbox label {
+ color: white;
+}
+
+.form-control {
+  display: inline !important;
+}
+.text-muted {
+  color: white;
+}
+/* End of styles SignUp and SigIn pages */
+
+
+
+/* Begin of styles profile page */
+.con-centr {
+   display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-align: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+.nav-head {
+  color: gray;
+  display: flex;
+  padding-left: 0;
+  padding-right: 0; 
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; 
+  background-color: #212121;
+}
+.n-container {
+  /* height: 640px; */
+  background-color: rgba(33,33,33,0.28)
+}
+.n-block-top input {
+    display: inline-block; 
+    width: 65%
+}
+.n-block-centr, .n-block-bottom{
+  /* display: grid; */
+  margin: 65px 30px 5px 30px;
+}
+.btn-cus {
+    padding: .375rem .75rem;
+    font-size: 1em;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.4rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    height: 34px;
+  }
+  .none-btn {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+  }
+.mt-0{
+  margin-top: 0;
+}
+.pt-20 {
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+
+
+.act-t {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.panel{
+  width: 100%;
+  opacity: 1;
+  position: relative;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.panel:hover p{
+  opacity: 0.3;
+}
+.panel:hover .middle {
+  opacity: 1;
+}
+.glyphicon {
+  color: green;
+  font-size: 24px;
+}
+.text {
+  /* background-color: #4CAF50; */
+  color: white;
+  font-size: 16px;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.panel {
+ padding: 0 15px;
+ background-color: rgba(255,255,255, 0.4);
+ border: 1px solid white;
+}
+.panel:hover {
+  border: 1px solid gray; 
+}
+
+.close {
+    line-height: 17px;
+    margin-right: -6px;
+    margin-top: 3px;
+}
+.task {
+
+  padding-top: 24px;
+  padding-bottom: 24px;
+  font-size: 14px;
+  text-align: justify;
+}
